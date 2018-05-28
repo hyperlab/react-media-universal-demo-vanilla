@@ -1,0 +1,24 @@
+{
+  "name": "react-media-universal-demo-vanilla",
+  "version": "1.0.0",
+  "description": "A demonstration of the problem (and solution) when hydrating server side rendered react-media.",
+  "main": "index.js",
+  "author": "Alfred Ringstad",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.client.config.js && webpack --config webpack.server.config.js",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-media": "^1.8.0",
+    "webpack": "^4.8.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.4"
+  }
+}
